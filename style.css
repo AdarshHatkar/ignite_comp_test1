@@ -70,6 +70,7 @@
 
   height: 600px;
 }
+
 .courses_wrapper div {
   height: 40%;
   width: 40%;
@@ -85,10 +86,12 @@
   box-shadow: 10px 5px 5px rgb(68, 68, 68);
   cursor: pointer;
 }
+
 .courses_wrapper div:hover {
   transform: scale(1.05);
   box-shadow: 20px 10px 10px rgb(68, 68, 68);
 }
+
 .courses_wrapper div:hover h1 {
   color: red;
   text-decoration: underline;
@@ -98,10 +101,12 @@
   margin-top: 15px;
   text-transform: uppercase;
 }
+
 .courses_wrapper div p {
   padding: 0 25px;
   margin-top: 15px;
 }
+
 .courses_wrapper div:hover p::first-letter {
   color: red;
   font-size: 30px;
@@ -137,18 +142,53 @@
   text-align: center;
   color: whitesmoke;
 }
+
 .cta_div p {
   font-size: 30px;
   padding-top: 200px;
 }
+
 .cta_div h1 {
   font-size: 50px;
   padding-top: 50px;
- 
+  padding-bottom: 50px;
+
 }
 
 
 .btn {
-    height: 50px;
-    width: 100px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0082FA;
+  color: whitesmoke;
+
+}
+
+.btn:hover {
+  border-radius: 15px;
+}
+
+
+footer {
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.btt {
+  background-color: #0082FA;
+
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  color: whitesmoke;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
