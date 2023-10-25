@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("./assets/fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai_Jamjuree", Arial, Helvetica, sans-serif;
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  color: #fff;
+}
+
+.nav_bar_links {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+.logo_div {
+  margin-left: 50px;
+}
+
+.hero_nav_parent {
+  background-image: url("./assets/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_div {
+  height: 600px;
+  border: 2px solid black;
+
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_div h1 {
+  font-size: 110px;
+}
+
+.hero_div_text {
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.courses_div {
+  border: 2px solid black;
+  text-align: center;
+  background-image: url("./assets/cources_bg_pattern.jpg");
+}
+
+.courses_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 600px;
+}
+.courses_wrapper div {
+  height: 40%;
+  width: 40%;
+  /* background-color: aqua; */
+  margin: 10px;
+  border-radius: 15px;
+  transition: all ease 1s;
+  background-size: cover;
+
+  text-align: center;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  box-shadow: 10px 5px 5px rgb(68, 68, 68);
+  cursor: pointer;
+}
+.courses_wrapper div:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 10px 10px rgb(68, 68, 68);
+}
+.courses_wrapper div:hover h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+.courses_wrapper div h1 {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.courses_wrapper div p {
+  padding: 0 25px;
+  margin-top: 15px;
+}
+.courses_wrapper div:hover p::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+/* .courses_1{
+    
+}
+.courses_2{
+   
+}
+.courses_3{
+   
+}
+.courses_4{
+   
+} */
+
+.courses_div_heading {
+  margin-top: 50px;
+}
+
+.courses_div_title {
+  margin-top: 20px;
+}
+
+.cta_div {
+  height: 475px;
+  /* padding: 50px 0; */
+  background-image: url("/assets/university.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: whitesmoke;
+}
+.cta_div p {
+  font-size: 30px;
+  padding-top: 200px;
+}
+.cta_div h1 {
+  font-size: 50px;
+  padding-top: 50px;
+ 
+}
+
+
+.btn {
+    height: 50px;
+    width: 100px;
+}
