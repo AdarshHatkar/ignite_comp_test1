@@ -309,17 +309,25 @@
 
 .gallary_div{
   position: relative;
-  height: 500px;
-  border: 2px solid black;
+  height: 60vh;
+  /* border: 2px solid black; */
   text-align: center;
   color: black;
+}
+
+.gallary_div h1{
+  width: 200px;
+  margin: 20px 45%;
+  display: block;
+  padding: 10px;
+  background-color: #0082FA;
 }
 
 #gallary_ch_1{ 
 
 height: 100%;
 
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-size: cover;
 
 }
@@ -339,6 +347,7 @@ height: 100%;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 4px;
+  margin-top: 40px;
   transition: transform 0.2s;
 }
 
@@ -353,7 +362,7 @@ height: 100%;
 footer {
   height: 200px;
   background-color: #132043;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   display: flex;
   align-items: center;
@@ -376,3 +385,31 @@ footer {
   font-weight: 100;
 }
 
+.describe{
+  width: 30%;
+  color: white;
+  margin-left: 50px;
+}
+
+.describe p{
+  margin-top: 20px;
+}
+
+.imp_links{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  margin-left: 20px;
+}
+
+.imp_links a{
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.imp_links h3{
+  color: red;
+}
