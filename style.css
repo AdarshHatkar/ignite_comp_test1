@@ -333,6 +333,7 @@ height: 100%;
   gap: 10px;
   justify-content: space-around;
   overflow: hidden;
+  margin-top: 20px;
   
 }
 
@@ -350,3 +351,6 @@ height: 100%;
   z-index: 1;
   /* border: 2px solid #333; */
 }
+
+
+

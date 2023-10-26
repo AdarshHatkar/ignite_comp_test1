@@ -38,3 +38,5 @@ let gallary_images = ['assets/all_events.jpg', 'assets/campus_gallary_1.jpg'
 //     gallary_images_index = 0
 //   }
 // }, 1000 * 3)
+
+
