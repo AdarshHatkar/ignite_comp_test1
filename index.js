@@ -1,42 +1,27 @@
 
 
-const scrollToTop = () => {
+// Get a reference to the button element
+const backToTopButton = document.getElementById("back_to_top");
 
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-};
+// Show/hide the button based on the user's scroll position
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backToTopButton.style.display = "flex";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+});
 
-
-let gallary_ch_ch_1 = document.getElementById('gallary_ch_ch_1')
-let gallary_ch_2 = document.getElementById('gallary_ch_2')
-let gallary = document.getElementById('gallary')
-
-let gallary_images = ['assets/all_events.jpg', 'assets/campus_gallary_1.jpg'
-  , 'assets/campus_gallary_2.jpg','assets/cultural_events.jpg']
-
-// for(i=0; i<gallary_images.length; i++){
-//   newImage= document.createElement('img')
-//   newImage.src = `${gallary_images[i]}`
-//   gallary.appendChild(newImage)
-// }
-
-// gallary_ch_ch_1.src = `${gallary_images[0]}`
-
-// let gallary_images_index = 1
-
-// setInterval(() => {
-//   gallary_ch_ch_1.src = `${gallary_images[gallary_images_index]}`
+// Scroll to the top when the button is clicked
+backToTopButton.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
 
 
 
 
-//   gallary_images_index++
-
-//   if (gallary_images_index == gallary_images.length) {
-//     gallary_images_index = 0
-//   }
-// }, 1000 * 3)
 
 
