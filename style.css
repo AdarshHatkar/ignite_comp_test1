@@ -394,6 +394,8 @@ footer {
   text-align: left;
   color: white;
   margin-left: 20px;
+  position: absolute;
+  right: 150px;
 }
 
 .imp_links a {
@@ -405,4 +407,6 @@ footer {
 
 .imp_links h3 {
   color: red;
+
 }
+
