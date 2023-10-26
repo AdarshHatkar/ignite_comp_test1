@@ -313,6 +313,8 @@
   /* border: 2px solid black; */
   text-align: center;
   color: black;
+  background-image: url("./assets/gallary_div_bg_pattern.jpg");
+  background-size: contain;
 }
 
 .gallary_div h1{
@@ -320,6 +322,8 @@
   margin: 20px 45%;
   display: block;
   padding: 10px;
+  border-radius: 10px;
+  color: white;
   background-color: #0082FA;
 }
 
