@@ -90,6 +90,7 @@
 .courses_div {
   border: 2px solid black;
   text-align: center;
+  height: 100vh;
   background-image: url("./assets/cources_bg_pattern.jpg");
 }
 
@@ -103,10 +104,10 @@
 }
 
 .courses_wrapper div {
-  height: 40%;
+  height: 50%;
   width: 40%;
   /* background-color: aqua; */
-  margin: 10px;
+  margin: 20px;
   border-radius: 15px;
 
   background-size: cover;
@@ -165,13 +166,14 @@
 }
 
 .cta_div {
-  height: 475px;
+  height: 55vh;
   /* padding: 50px 0; */
   background-image: url("./assets/university.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   text-align: center;
   color: whitesmoke;
+  /* border: 2px solid black; */
 }
 
 .cta_div p {
@@ -206,12 +208,6 @@
 }
 
 
-footer {
-  height: 200px;
-  border: 2px solid black;
-  text-align: center;
-}
-
 .btt {
   background-color: #0082FA;
 
@@ -229,10 +225,11 @@ footer {
 }
 
 .facility_div{
-  height: 300px;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #232D3F;
 
 }
 
@@ -348,4 +345,30 @@ height: 100%;
   position: relative;
   z-index: 1;
   /* border: 2px solid #333; */
+}
+
+footer {
+  height: 200px;
+  background-color: #132043;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.ft_logo{
+  height: 120px;
+  width: 120px;
+  background-image: url(./assets/univer-removebg-preview.png);
+  background-size: cover;
+  margin-left: 50px;
+  /* border: 2px solid black; */
+
+}
+
+.tagline{
+  color: white;
+  margin-left: 50px;
+  font-size: 22px;
+  font-weight: 100;
 }
